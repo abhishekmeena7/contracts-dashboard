@@ -1,11 +1,13 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { DashboardLayout } from "../../contracts/components/dashboard/dashboard-layout"
-import { ContractsTable } from "../../contracts/components/contracts/contracts-table"
-import { Card, CardContent, CardHeader, CardTitle } from "../../contracts/components/ui/card"
-import { Badge } from "../../contracts/components/ui/badge"
-import { fetchDashboardStats } from "../../contracts/lib/api"
+import { DashboardLayout } from "../components/dashboard/dashboard-layout"
+import { ContractsTable } from "../components/contracts/contracts-table"
+import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card"
+import { Badge } from "../components/ui/badge"
+import { fetchDashboardStats } from "../lib/api"
+
+
 import { FileText, AlertTriangle, Clock, CheckCircle } from "lucide-react"
 
 export default function DashboardPage() {
