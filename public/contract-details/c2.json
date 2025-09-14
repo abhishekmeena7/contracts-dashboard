@@ -1,0 +1,62 @@
+{
+  "id": "c2",
+  "name": "Network Services Agreement",
+  "parties": "TelNet & ABC Corp",
+  "start": "2023-10-10",
+  "expiry": "2025-10-10",
+  "status": "Renewal Due",
+  "risk": "High",
+  "clauses": [
+    {
+      "title": "Service Level Agreement",
+      "summary": "Provider guarantees 99.9% uptime with penalties for non-compliance.",
+      "confidence": 0.89
+    },
+    {
+      "title": "Force Majeure",
+      "summary": "Neither party liable for delays due to circumstances beyond reasonable control.",
+      "confidence": 0.76
+    },
+    {
+      "title": "Payment Terms",
+      "summary": "Monthly payments due within 30 days of invoice date with 1.5% monthly late fees.",
+      "confidence": 0.93
+    },
+    {
+      "title": "Confidentiality",
+      "summary": "Both parties must protect confidential information for 5 years post-termination.",
+      "confidence": 0.84
+    }
+  ],
+  "insights": [
+    {
+      "risk": "High",
+      "message": "SLA penalties are capped at 10% of monthly fees, which may not adequately compensate for significant outages."
+    },
+    {
+      "risk": "High",
+      "message": "Force majeure clause is overly broad and may excuse performance in situations that should be foreseeable."
+    },
+    {
+      "risk": "Medium",
+      "message": "Late payment fees compound monthly, potentially creating significant financial exposure."
+    }
+  ],
+  "evidence": [
+    {
+      "source": "Schedule A - Service Level Agreement",
+      "snippet": "Provider shall maintain network availability of at least 99.9% measured monthly. For each full percentage point below 99.9%, Customer shall receive a credit equal to 10% of the monthly service fee, provided such credits shall not exceed 10% of monthly fees in any given month.",
+      "relevance": 0.94
+    },
+    {
+      "source": "Section 11 - Force Majeure",
+      "snippet": "Neither party shall be liable for any delay or failure to perform due to causes beyond its reasonable control, including but not limited to acts of God, war, terrorism, labor disputes, or government actions.",
+      "relevance": 0.82
+    },
+    {
+      "source": "Section 4.2 - Late Payments",
+      "snippet": "Any amounts not paid when due shall bear interest at the rate of one and one-half percent (1.5%) per month or the maximum rate permitted by law, whichever is less.",
+      "relevance": 0.88
+    }
+  ]
+}

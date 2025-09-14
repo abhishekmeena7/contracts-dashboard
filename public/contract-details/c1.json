@@ -1,0 +1,62 @@
+{
+  "id": "c1",
+  "name": "MSA 2025",
+  "parties": "Microsoft & ABC Corp",
+  "start": "2023-01-01",
+  "expiry": "2025-12-31",
+  "status": "Active",
+  "risk": "Medium",
+  "clauses": [
+    {
+      "title": "Termination",
+      "summary": "Either party may terminate this agreement with ninety (90) days written notice to the other party.",
+      "confidence": 0.82
+    },
+    {
+      "title": "Liability Cap",
+      "summary": "Total liability shall be limited to the aggregate amount of fees paid in the twelve (12) months preceding the claim.",
+      "confidence": 0.87
+    },
+    {
+      "title": "Data Protection",
+      "summary": "Both parties agree to comply with all applicable data protection laws including GDPR and CCPA.",
+      "confidence": 0.91
+    },
+    {
+      "title": "Intellectual Property",
+      "summary": "Each party retains ownership of their respective intellectual property rights.",
+      "confidence": 0.78
+    }
+  ],
+  "insights": [
+    {
+      "risk": "High",
+      "message": "Liability cap excludes data breach costs, creating potential unlimited exposure for data-related incidents."
+    },
+    {
+      "risk": "Medium",
+      "message": "Contract auto-renews unless cancelled 60 days before expiry, which may lead to unintended renewals."
+    },
+    {
+      "risk": "Low",
+      "message": "Standard termination clause provides adequate notice period for both parties."
+    }
+  ],
+  "evidence": [
+    {
+      "source": "Section 12.2 - Limitation of Liability",
+      "snippet": "IN NO EVENT SHALL EITHER PARTY'S TOTAL LIABILITY ARISING OUT OF OR RELATED TO THIS AGREEMENT EXCEED THE AGGREGATE AMOUNT OF FEES PAID BY CUSTOMER IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM. NOTWITHSTANDING THE FOREGOING, THIS LIMITATION SHALL NOT APPLY TO DATA BREACH INCIDENTS OR WILLFUL MISCONDUCT.",
+      "relevance": 0.91
+    },
+    {
+      "source": "Section 8.1 - Termination",
+      "snippet": "Either party may terminate this Agreement at any time with ninety (90) days prior written notice to the other party. Upon termination, all rights and obligations shall cease except those that by their nature should survive.",
+      "relevance": 0.85
+    },
+    {
+      "source": "Section 15.3 - Automatic Renewal",
+      "snippet": "This Agreement shall automatically renew for successive one-year terms unless either party provides written notice of non-renewal at least sixty (60) days prior to the expiration of the then-current term.",
+      "relevance": 0.78
+    }
+  ]
+}
